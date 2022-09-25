@@ -5,42 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
 </head>
 <style>
-    .site{width: 400px;height: 500px;
+    .neirong{display: flex;
+    width: 340px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
     }
-    .color{background-color: #f1f1f1;}
-    #background{background-image: url(
-https://s1.328888.xyz/2022/09/16/cAPlF.jpg)
-;
-background-size: auto;
-background-repeat: repeat;}
+    /* *{border: 1px black solid;} */
+    body{display: flex;
+    width:100%;
+    margin: 0;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .zhaopian{display: flex;
+    width: 340px;
+    height: 1300px;
+}
+.zuo{display:flex ;
+flex-direction: column;
+width: 170px;
+height: 1300px;
+}
+.you{display:flex ;
+flex-direction: column;
+width: 170px;
+height: 1300px;
+}
+.pian{display: flex;
+width: 170px;
+height: 300px;
+margin-top :25px;
+flex-direction: column;}
+#bg{background-image: url(https://s1.328888.xyz/2022/09/16/cAPlF.jpg);}
+p{background-color: transparent;
+color: #eee;}
+   
+    
+
+    
 </style>
-<body id="background">
-    <div style="text-align: center;">
-    <img src=""
-    </div>
-    <div style="text-align: center;">
-        <p class="color"><b>当我还是初中生时</b>,那时还很稚嫩。</p>
-    <img src="https://s1.328888.xyz/2022/09/13/KWzi5.jpg" class="site"> 
-</div>
-<div style="text-align: center;">
-    <h1 class="color">我最初步入高中时</h1><p>（再配上相机美颜）</p>
-<img src="https://s1.328888.xyz/2022/09/13/KWyxS.jpg" style="width: 400px;height:400px;">
-</div>
-<div style="text-align: center;">
-    <img src="https://s1.328888.xyz/2022/09/13/KWtaF.jpg " style="width: 550px;height: 550px;"
-</div>
-<div style="text-align: center;">
-    <p style="background-color: #f1f1f1;
-    height: 50px;
-    text-align: center;">高三的一次团建，<b>猿形毕露</b><br>萎靡不振！！！</p>
-    <img src="https://s1.328888.xyz/2022/09/13/KWQ3N.jpg" style="width: 300px;"">
-    <div style="text-align: center;">
-    <p style="background-color: #f1f1f1;">Now,我是这样的<br>（剪成这样是因为头~秃）</p>
-        <img src="https://s1.328888.xyz/2022/09/16/ceC06.jpg" alt="我的照片" style="width: 200px;">
+<body id="bg">
+    <!--内容-->
+    <div class="neirong">
+        <h1 >我的相册
+        </h1>
 
     </div>
-</div>
+    <!--相片-->
+    <div class="zhaopian">
+        <!-- 左边 -->
+        <div class="zuo">
+            <div class="pian">
+                <img src="https://s1.328888.xyz/2022/09/13/KWzi5.jpg" width="150px" height="220px">
+                <p><b>初中的时候</b>，那时还很之稚嫩</p>
+            </div>
+            <div class="pian">
+                <img src="https://s1.328888.xyz/2022/09/13/KWtaF.jpg "height="220px" width="160px">
+                <p style="text-align: center;"><b>高二</b></p>
+            </div>
+             <div class="pian">
+                <img src="https://s1.328888.xyz/2022/09/13/KWQ3N.jpg" width="150px">
+                <p><b>高三</b>的一次团建，直接猿形毕露</p>
+
+             </div>
+             
+            
+        </div>
+        <!-- 右边 -->
+        <div class="you">
+        <div class="pian">
+            <img src="https://s1.328888.xyz/2022/09/13/KWyxS.jpg"  width="150px">
+            <p>最初步入<b>高中</b>时，再配上美颜相机</p>
+        </div>
+        <div class="pian">
+            <img src="https://s1.328888.xyz/2022/09/16/ceC06.jpg" style="margin-top: 100px;" width="150px">
+          <p><b>现在</b>我是这样的
+            <br>从头来过（其实是头秃...）
+          </p>
+          
+        </div>
+        </div>
+
+    </div>
+      
 </body>
+</html>
