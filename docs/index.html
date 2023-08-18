@@ -1,1 +1,430 @@
-a
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Change OR Die"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>生日快乐</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            height: 100vh;
+            z-index: 1;
+            width: 70%;
+            background: linear-gradient(135deg, rgba(124, 122, 122, 0), rgba(168, 84, 123, 0), rgba(152, 140, 132, 0));
+            padding: 30px;
+            border-radius: 4px;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            text-align: justify;
+            color: rgb(217, 217, 217);
+            letter-spacing: 0.034em;
+            overflow-y: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-bottom: 10px;
+            max-width: 35%;
+            max-height: 90%;
+        }
+        .canvas-container {
+            z-index: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    .scroll-content {
+    width: 100%;
+    animation: scroll 150s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+    </style>
+</head>
+<body>
+<div class="canvas-container">
+    <canvas id="sakura"></canvas>
+</div>
+<div class="box">
+    <div class="scroll-content">
+    <div>致未来的你：</div>
+    <p>近来可还好？</p>
+    <p>你是否在想念三月笑春风的桃花，那六月泛着涟漪的湖面，九月飘落的枯叶和那十二月结冰的枝桠。</p>
+    <p>我不太记得了，是因为那普通又美好的一面在我匆匆路过时悄然错过。</p>
+    <p>但我仍记得你，记得你穿着白净的裙子在风中飘摇，随着风经过我的身边，你没注意到我，我只是路上的行人一个。</p>
+    <p>再见你是在哪里呢，不是在熟悉的道路上，也不是在承载记忆的课堂中，是梦里，最美好也不最不真实的地方。</p>
+    <p>六月的夏风是炎热的风，是离别的风，是悲伤的风，也是高兴的风。</p>
+    <p>六月的到来标志着一段经历的逝去，预兆着一个未来的开始，人们互相助兴，互相告别，互相慰勉，相约在下一个六月一定相见。</p>
+    <p>大家背起行囊，有人远航，有人不惧艰难再来一场，有人迫不得已抗下生活的重担。</p>
+    <p>那你呢，那时你在干什么呢？</p>
+    <p>可能当你看见时已是过去许多年后，此时你又在干什么呢？你身上青梅味的香气是否还在，你是否仍然笑容依旧</p>
+    <p>你我皆在感慨过去的美好，回忆曾踏过的草地，驰骋过的球场。好像我们的生活不一样，但经历却相同。</p>
+    <p>
+        萧瑟的秋风孕育不了娇艳春花，刺骨的寒冬里长出孤傲的梅。人间尽是孤寂事，何不当个不怨仙？风有风的忧伤，树有树的忧愁。你我未曾见，何必犯伤愁。</p>
+    <p>崔护曾写下一首诗</p>
+    <p style="text-align:center;"><b>去年今日此门中</b>，</p>
+    <p style="text-align: center;"><b>人面桃花相印红</b>。</p>
+    <p style="text-align:center;"><b>人面不知何处去</b>，</p>
+    <p style="text-align: center;"><b>桃花依旧笑春风</b>。</p>
+    <p>于我而言，你正是那人面，也是那桃花。</p>
+    <p>最让我印象深刻的是2021年8月14日，七夕的那一天。你的生日一直记得很清楚，每年七夕的后一天。那时你因为疫情原因无法去长沙集训，于是有了更多时间来回复我发的消息。
+        当你在七夕凌晨告诉我，你会放一天假时，我的内心是忐忑，是不安的。我骨子里的懦弱让我难以撑起勇气约你出去，我会担心你是否会拒绝我。
+        经过煎熬的思想斗争后，我还是在朋友的怂恿下鼓起了勇气。
+    </p>
+    <p>而你最初给的回应，“看情况吧。”</p>
+    <p>
+        人的脆弱大概就是这样，当你以为一切顺利的时候，偏偏突然出现的打击让你猝不及防。不得不说，那时我感觉心脏好像暂停了。仿佛一把利刃刺进了跳动的心脏，它没有流血，而是像玻璃一样破碎，散落一地而消失不见。</p>
+    <p>幸运的是，平时嘻嘻哈哈的损友会在此刻安慰我，重新燃起我的内心。</p>
+    <p>
+        经过好友的一番思想输出后，我决定一不做二不休，利用“道德绑架”式的形式。于是一大早，我就跑到电影院去购票，幸运的是，电影院在那天刚好解封，也许冥冥中有天意。当时仅有两部电影，我现在仍然记得，一部是青春校园剧《夏至未至》，一部是犯罪嫌疑剧《怒火
+        重案》。因为拿不准，我特意还问了下别人哪部电影好，结果遭到别人的批骂“七夕节去电影院不看爱情片，那就是真的奇葩。”</p>
+    <p>
+        买好票后，我马上把照片发给了你，似在逼迫你。你没有马上回应，不知是在犹豫还是确实未看见消息。在我不断地信息轰炸下，你终于回了消息“再看看吧，下午得去做蛋糕。”</p>
+    <p>
+        电影开始的时间是晚上七点，我特意去借了部电动车。时间越来越近，越来越近。天公不作美，临近六点钟时，天空开始飘起了雨。我看着下得越来越大的雨，心里竟没起一丝波澜，没有可惜，没有后悔，我好像接受了老天对我的嘲弄。</p>
+    <p style="text-align: center;">“好像开始下雨了，你准备去吗？”</p>
+    <p>我已经不抱希望了，纯属是找个交代，或者是找个理由可以让我把票扔掉。</p>
+    <p>
+        明明内心没有波澜，但在发完消息出去后，我心里开始难过。就像《龙族》中的路明非一样，被设在局中，成为别人的陪衬品。那一刻我终于理解了路明非，我和他都是衰小孩。</p>
+    <p>“好啊。”</p>
+    <p>让我不可思议是你竟然同意了，荒凉的沙漠长出了娇艳的鲜花。</p>
+    <p>“你现在在哪，我去接你”</p>
+    <p>“我在……，但好像下雨了。”</p>
+    <p>已经六点半了，我拿着伞马上跑出去找出租车，并在路上要了司机的号码。终于，在广场的一处找到了你。</p>
+    <p>
+        你身着一身黑裙，给我的第一印象是，优雅，如黑天鹅一般。笨拙的我匆匆跑去接你，由于太着急，我竟然自己先上了车，让你在外面淋了雨。真是很蠢啊。</p>
+    <p>终于，我们赶到电影院已是七点多了，由于第一天解封，来看电影的人不多，除了你我就剩一对夫妻了。</p>
+    <p>影院里黑沉沉，只有画面在不断地闪动。我时常瞄向你，你在认真看电影，我在认真看你。</p>
+    <p>影片很快就结束了，时间也到了九点。“你着急回家吗？”我问。</p>
+    <p>
+        你说不着急，我又说“那去喝杯奶茶怎么样，反正现在还在下雨”。你答应了，并说要请我喝，我有点不好意思，可是我知道我囊中已经羞涩，我怕等会付不了款的尴尬于是答应了下来。</p>
+    <p>我们就这样聊了一个多小时，看着时间到了十点钟，已经不早了，我又特意打了出租车司机的电话。</p>
+    <p>
+        淋了点雨，司机的车内开着冷风。短衣短裤的我一上车便打起了寒颤，我不敢再开口说话，我怕声音都是哆嗦的。很快，车就到了。把你送下车后，我把伞留给了你。我知道你还要走一段路。噢差点忘记了给你的生日礼物，那是一本《哈利波特》的立体书。你说你未曾看过《哈利波特》，但我希望这个礼物能让你爱上它，因为它真的很有趣。</p>
+    <p>回到家洗完澡后，我等待着零点的到来，我拿起我的破木吉他，为你谈了一首蹩脚的生日歌。</p>
+    <p>“生日快乐！”</p>
+    </div>
+</div>
+
+<canvas id="sakura"></canvas>
+<!-- sakura shader -->
+<script id="sakura_point_vsh" type="x-shader/x_vertex">
+uniform mat4 uProjection;
+uniform mat4 uModelview;
+uniform vec3 uResolution;
+uniform vec3 uOffset;
+uniform vec3 uDOF;  //x:focus distance, y:focus radius, z:max radius
+uniform vec3 uFade; //x:start distance, y:half distance, z:near fade start
+
+attribute vec3 aPosition;
+attribute vec3 aEuler;
+attribute vec2 aMisc; //x:size, y:fade
+
+varying vec3 pposition;
+varying float psize;
+varying float palpha;
+varying float pdist;
+
+//varying mat3 rotMat;
+varying vec3 normX;
+varying vec3 normY;
+varying vec3 normZ;
+varying vec3 normal;
+
+varying float diffuse;
+varying float specular;
+varying float rstop;
+varying float distancefade;
+
+void main(void) {
+    // Projection is based on vertical angle
+    vec4 pos = uModelview * vec4(aPosition + uOffset, 1.0);
+    gl_Position = uProjection * pos;
+    gl_PointSize = aMisc.x * uProjection[1][1] / -pos.z * uResolution.y * 0.5;
+
+    pposition = pos.xyz;
+    psize = aMisc.x;
+    pdist = length(pos.xyz);
+    palpha = smoothstep(0.0, 1.0, (pdist - 0.1) / uFade.z);
+
+    vec3 elrsn = sin(aEuler);
+    vec3 elrcs = cos(aEuler);
+    mat3 rotx = mat3(
+        1.0, 0.0, 0.0,
+        0.0, elrcs.x, elrsn.x,
+        0.0, -elrsn.x, elrcs.x
+    );
+    mat3 roty = mat3(
+        elrcs.y, 0.0, -elrsn.y,
+        0.0, 1.0, 0.0,
+        elrsn.y, 0.0, elrcs.y
+    );
+    mat3 rotz = mat3(
+        elrcs.z, elrsn.z, 0.0,
+        -elrsn.z, elrcs.z, 0.0,
+        0.0, 0.0, 1.0
+    );
+    mat3 rotmat = rotx * roty * rotz;
+    normal = rotmat[2];
+
+    mat3 trrotm = mat3(
+        rotmat[0][0], rotmat[1][0], rotmat[2][0],
+        rotmat[0][1], rotmat[1][1], rotmat[2][1],
+        rotmat[0][2], rotmat[1][2], rotmat[2][2]
+    );
+    normX = trrotm[0];
+    normY = trrotm[1];
+    normZ = trrotm[2];
+
+    const vec3 lit = vec3(0.6917144638660746, 0.6917144638660746, -0.20751433915982237);
+
+    float tmpdfs = dot(lit, normal);
+    if(tmpdfs < 0.0) {
+        normal = -normal;
+        tmpdfs = dot(lit, normal);
+    }
+    diffuse = 0.4 + tmpdfs;
+
+    vec3 eyev = normalize(-pos.xyz);
+    if(dot(eyev, normal) > 0.0) {
+        vec3 hv = normalize(eyev + lit);
+        specular = pow(max(dot(hv, normal), 0.0), 20.0);
+    }
+    else {
+        specular = 0.0;
+    }
+
+    rstop = clamp((abs(pdist - uDOF.x) - uDOF.y) / uDOF.z, 0.0, 1.0);
+    rstop = pow(rstop, 0.5);
+    //-0.69315 = ln(0.5)
+    distancefade = min(1.0, exp((uFade.x - pdist) * 0.69315 / uFade.y));
+}
+
+</script>
+<script id="sakura_point_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+
+uniform vec3 uDOF;  //x:focus distance, y:focus radius, z:max radius
+uniform vec3 uFade; //x:start distance, y:half distance, z:near fade start
+
+const vec3 fadeCol = vec3(0.08, 0.03, 0.06);
+
+varying vec3 pposition;
+varying float psize;
+varying float palpha;
+varying float pdist;
+
+//varying mat3 rotMat;
+varying vec3 normX;
+varying vec3 normY;
+varying vec3 normZ;
+varying vec3 normal;
+
+varying float diffuse;
+varying float specular;
+varying float rstop;
+varying float distancefade;
+
+float ellipse(vec2 p, vec2 o, vec2 r) {
+    vec2 lp = (p - o) / r;
+    return length(lp) - 1.0;
+}
+
+void main(void) {
+    vec3 p = vec3(gl_PointCoord - vec2(0.5, 0.5), 0.0) * 2.0;
+    vec3 d = vec3(0.0, 0.0, -1.0);
+    float nd = normZ.z; //dot(-normZ, d);
+    if(abs(nd) < 0.0001) discard;
+
+    float np = dot(normZ, p);
+    vec3 tp = p + d * np / nd;
+    vec2 coord = vec2(dot(normX, tp), dot(normY, tp));
+
+    //angle = 15 degree
+    const float flwrsn = 0.258819045102521;
+    const float flwrcs = 0.965925826289068;
+    mat2 flwrm = mat2(flwrcs, -flwrsn, flwrsn, flwrcs);
+    vec2 flwrp = vec2(abs(coord.x), coord.y) * flwrm;
+
+    float r;
+    if(flwrp.x < 0.0) {
+        r = ellipse(flwrp, vec2(0.065, 0.024) * 0.5, vec2(0.36, 0.96) * 0.5);
+    }
+    else {
+        r = ellipse(flwrp, vec2(0.065, 0.024) * 0.5, vec2(0.58, 0.96) * 0.5);
+    }
+
+    if(r > rstop) discard;
+
+    vec3 col = mix(vec3(1.0, 0.8, 0.75), vec3(1.0, 0.9, 0.87), r);
+    float grady = mix(0.0, 1.0, pow(coord.y * 0.5 + 0.5, 0.35));
+    col *= vec3(1.0, grady, grady);
+    col *= mix(0.8, 1.0, pow(abs(coord.x), 0.3));
+    col = col * diffuse + specular;
+
+    col = mix(fadeCol, col, distancefade);
+
+    float alpha = (rstop > 0.001)? (0.5 - r / (rstop * 2.0)) : 1.0;
+    alpha = smoothstep(0.0, 1.0, alpha) * palpha;
+
+    gl_FragColor = vec4(col * 0.5, alpha);
+}
+
+</script>
+<!-- effects -->
+<script id="fx_common_vsh" type="x-shader/x_vertex">
+uniform vec3 uResolution;
+attribute vec2 aPosition;
+
+varying vec2 texCoord;
+varying vec2 screenCoord;
+
+void main(void) {
+    gl_Position = vec4(aPosition, 0.0, 1.0);
+    texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
+    screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
+}
+
+</script>
+<script id="bg_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+
+uniform vec2 uTimes;
+
+varying vec2 texCoord;
+varying vec2 screenCoord;
+
+void main(void) {
+    vec3 col;
+    float c;
+    vec2 tmpv = texCoord * vec2(0.8, 1.0) - vec2(0.95, 1.0);
+    c = exp(-pow(length(tmpv) * 1.8, 2.0));
+    col = mix(vec3(0.02, 0.0, 0.03), vec3(0.96, 0.98, 1.0) * 1.5, c);
+    gl_FragColor = vec4(col * 0.5, 1.0);
+}
+
+</script>
+<script id="fx_brightbuf_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
+
+varying vec2 texCoord;
+varying vec2 screenCoord;
+
+void main(void) {
+    vec4 col = texture2D(uSrc, texCoord);
+    gl_FragColor = vec4(col.rgb * 2.0 - vec3(0.5), 1.0);
+}
+
+</script>
+<script id="fx_dirblur_r4_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
+uniform vec4 uBlurDir; //dir(x, y), stride(z, w)
+
+varying vec2 texCoord;
+varying vec2 screenCoord;
+
+void main(void) {
+    vec4 col = texture2D(uSrc, texCoord);
+    col = col + texture2D(uSrc, texCoord + uBlurDir.xy * uDelta);
+    col = col + texture2D(uSrc, texCoord - uBlurDir.xy * uDelta);
+    col = col + texture2D(uSrc, texCoord + (uBlurDir.xy + uBlurDir.zw) * uDelta);
+    col = col + texture2D(uSrc, texCoord - (uBlurDir.xy + uBlurDir.zw) * uDelta);
+    gl_FragColor = col / 5.0;
+}
+
+</script>
+<!-- effect fragment shader template -->
+<script id="fx_common_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform vec2 uDelta;
+
+varying vec2 texCoord;
+varying vec2 screenCoord;
+
+void main(void) {
+    gl_FragColor = texture2D(uSrc, texCoord);
+}
+
+</script>
+<!-- post processing -->
+<script id="pp_final_vsh" type="x-shader/x_vertex">
+uniform vec3 uResolution;
+attribute vec2 aPosition;
+varying vec2 texCoord;
+varying vec2 screenCoord;
+void main(void) {
+    gl_Position = vec4(aPosition, 0.0, 1.0);
+    texCoord = aPosition.xy * 0.5 + vec2(0.5, 0.5);
+    screenCoord = aPosition.xy * vec2(uResolution.z, 1.0);
+}
+
+</script>
+<script id="pp_final_fsh" type="x-shader/x_fragment">
+#ifdef GL_ES
+//precision mediump float;
+precision highp float;
+#endif
+uniform sampler2D uSrc;
+uniform sampler2D uBloom;
+uniform vec2 uDelta;
+varying vec2 texCoord;
+varying vec2 screenCoord;
+void main(void) {
+    vec4 srccol = texture2D(uSrc, texCoord) * 2.0;
+    vec4 bloomcol = texture2D(uBloom, texCoord);
+    vec4 col;
+    col = srccol + bloomcol * (vec4(1.0) + srccol);
+    col *= smoothstep(1.0, 0.0, pow(length((texCoord - vec2(0.5)) * 2.0), 1.2) * 0.5);
+    col = pow(col, vec4(0.45454545454545)); //(1.0 / 2.2)
+
+    gl_FragColor = vec4(col.rgb, 1.0);
+    gl_FragColor.a = 1.0;
+}
+
+</script>
+
+<script src="./js/index.js"></script>
+
+
+</body>
+</html>
